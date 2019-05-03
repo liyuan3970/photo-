@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Photography Website Concept</title>
+	<meta name="description" content="A photography-inspired website layout with an expanding stack slider and a background image tilt effect" />
+	<meta name="keywords" content="photography, template, layout, effect, expand, image stack, animation, flickity, tilt" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="/static/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/static/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/flickity.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+	<script src="/static/js/modernizr.custom.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="hero">
+			<div class="hero__back hero__back--static"></div>
+			<div class="hero__back hero__back--mover"></div>
+			<div class="hero__front"></div>
+		</div>
+		<header class="codrops-header">
+{#			<div class="codrops-links">#}
+{#				<a class="codrops-icon codrops-icon--prev" href="#Development/InteractiveColoringConcept/" title="Previous Demo"><span>Previous Demo</span></a>#}
+{#				<a class="codrops-icon codrops-icon--drop" href="#codrops/2015/05/06/photography-website-concept/" title="Back to the article"><span>Back to the Codrops article</span></a>#}
+{#			</div>#}
+			<h1 class="codrops-title">Christian Zana <span>Photography</span></h1>
+			<nav class="menu">
+				<a class="menu__item" href="#"><span>About</span></a>
+				<a class="menu__item menu__item--current" href="#"><span>Main</span></a>
+				<a class="menu__item" href="#"><span>More</span></a>
+			</nav>
+		</header>
+{#        <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>#}
+
+
+
+
+
+{#                     ******************life ************************                #}
+
+
+
+
+
+		<div class="stack-slider">
+			<div class="stacks-wrapper">
+				<div class="stack">
+					<h2 class="stack-title"><a href="#" data-text="Portraits"><span>Life</span></a></h2>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ life.0.img }} alt="img01" />
+							<h3 class="item__title">{{ life.0.title }}<span class="item__date">{{ life.0.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ life.1.img }} alt="img02" />
+							<h3 class="item__title">{{ life.1.title }}<span class="item__date">{{ life.1.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ life.2.img }} alt="img03" />
+							<h3 class="item__title">{{ life.2.title }}<span class="item__date">{{ life.2.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ life.3.img }} alt="img04" />
+							<h3 class="item__title">{{ life.3.title }} <span class="item__date">{{ life.3.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ life.4.img }} alt="img05" />
+							<h3 class="item__title">{{ life.4.title }}<span class="item__date">{{ life.4.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+							<p>Images by <a href="https://www.baidu.com">Liayun3970</a></p>
+						</div>
+					</div>
+					<div class="item">
+						<!-- Related demos -->
+						<!--<div class="item__content item__content&#45;&#45;related">-->
+							<!--<p>If you enjoyed this demo you might also like:</p>-->
+							<!--<a class="media-item" href="#Tutorials/SlidingHeaderLayout/">-->
+								<!--<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />-->
+								<!--<h3 class="media-item__title">Sliding Header Layout</h3>-->
+							<!--</a>-->
+							<!--<a class="media-item" href="#Development/ScatteredPolaroidsGallery/">-->
+								<!--<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />-->
+								<!--<h3 class="media-item__title">Scattered Polaroid Gallery</h3>-->
+							<!--</a>-->
+						<!--</div>-->
+					</div>
+				</div>
+
+
+
+{#                **************************landscape***********************************************#}
+
+
+
+
+
+
+				<div class="stack">
+					<h2 class="stack-title"><a href="#" data-text="Landscape"><span>Landscape</span></a></h2>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ landscape.0.img }} alt="img01" />
+							<h3 class="item__title">{{ landscape.0.title }}<span class="item__date">{{ landscape.0.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ landscape.1.img }} alt="img02" />
+							<h3 class="item__title">{{ landscape.1.title }}<span class="item__date">{{ landscape.1.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ landscape.2.img }} alt="img03" />
+							<h3 class="item__title">{{ landscape.2.title }} <span class="item__date">{{ landscape.2.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ landscape.3.img }} alt="img04" />
+							<h3 class="item__title">{{ landscape.3.title }}<span class="item__date">{{ landscape.3.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ landscape.4.img }} alt="img05" />
+							<h3 class="item__title">{{ landscape.4.title }}<span class="item__date">{{ landscape.4.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+							<p>Images by <a href="https://www.baidu.com">Liyuan3970</a></p>
+						</div>
+					</div>
+					<div class="item">
+						<!-- Related demos -->
+						<!--<div class="item__content item__content&#45;&#45;related">-->
+							<!--<p>If you enjoyed this demo you might also like:</p>-->
+							<!--<a class="media-item" href="#Tutorials/SlidingHeaderLayout/">-->
+								<!--<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />-->
+								<!--<h3 class="media-item__title">Sliding Header Layout</h3>-->
+							<!--</a>-->
+							<!--<a class="media-item" href="#Development/ScatteredPolaroidsGallery/">-->
+								<!--<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />-->
+								<!--<h3 class="media-item__title">Scattered Polaroid Gallery</h3>-->
+							<!--</a>-->
+						<!--</div>-->
+					</div>
+				</div>
+
+
+
+{#*************************************************food*************************************************************#}
+
+
+
+				<div class="stack">
+					<h2 class="stack-title"><a href="#" data-text="Miscellaneous"><span>Food</span></a></h2>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ food.0.img }} alt="img01" />
+							<h3 class="item__title">{{ food.0.title }}<span class="item__date">{{ food.0.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ food.1.img }} alt="img02" />
+							<h3 class="item__title">{{ food.1.title }}<span class="item__date">{{ food.1.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ food.2.img }} alt="img03" />
+							<h3 class="item__title">{{ food.2.title }}<span class="item__date">{{ food.2.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ food.3.img }} alt="img04" />
+							<h3 class="item__title">{{ food.3.title }}<span class="item__date">{{ food.3.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ food.4.img }} alt="img05" />
+							<h3 class="item__title">{{ food.4.title }}<span class="item__date">{{ food.4.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon EOS M6</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+							<p>Images by <a href="https://www.baidu.com">Liyuan3970</a></p>
+						</div>
+					</div>
+					<div class="item">
+						<!-- Related demos -->
+						<!--<div class="item__content item__content&#45;&#45;related">-->
+							<!--<p>If you enjoyed this demo you might also like:</p>-->
+							<!--<a class="media-item" href="#Tutorials/SlidingHeaderLayout/">-->
+								<!--<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />-->
+								<!--<h3 class="media-item__title">Sliding Header Layout</h3>-->
+							<!--</a>-->
+							<!--<a class="media-item" href="#Development/ScatteredPolaroidsGallery/">-->
+								<!--<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />-->
+								<!--<h3 class="media-item__title">Scattered Polaroid Gallery</h3>-->
+							<!--</a>-->
+						<!--</div>-->
+					</div>
+				</div>
+
+
+
+{#**************************************                     happiness*********************************************#}
+
+
+
+
+
+
+
+
+
+				<div class="stack">
+					<h2 class="stack-title"><a href="#" data-text="Wildlife"><span>Happiness</span></a></h2>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ happiness.0.img }} alt="img01" />
+							<h3 class="item__title">{{ happiness.0.title }}<span class="item__date">{{ happiness.0.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ happiness.1.img }} alt="img02" />
+							<h3 class="item__title">{{ happiness.1.title }}<span class="item__date">{{ happiness.1.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ happiness.2.img }} alt="img03" />
+							<h3 class="item__title">{{ happiness.2.title }} <span class="item__date">{{ happiness.2.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ happiness.3.img }} alt="img04" />
+							<h3 class="item__title">{{ happiness.3.title }} <span class="item__date">{{ happiness.3.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__content">
+							<img src=/{{ happiness.4.img }} alt="img05" />
+							<h3 class="item__title">{{ happiness.4.title }}<span class="item__date">{{ happiness.4.time }}</span></h3>
+							<div class="item__details">
+								<ul>
+									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
+									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
+									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
+									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
+									<li><i class="icon icon-iso"></i><span>80</span></li>
+								</ul>
+							</div>
+							<p>Images by <a href="https://www.baidu.com">Liyuan3970</a></p>
+						</div>
+					</div>
+					<div class="item">
+						<!-- Related demos -->
+						<!--<div class="item__content item__content&#45;&#45;related">-->
+							<!--<p>If you enjoyed this demo you might also like:</p>-->
+							<!--<a class="media-item" href="#Tutorials/SlidingHeaderLayout/">-->
+								<!--<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />-->
+								<!--<h3 class="media-item__title">Sliding Header Layout</h3>-->
+							<!--</a>-->
+							<!--<a class="media-item" href="#Development/ScatteredPolaroidsGallery/">-->
+								<!--<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />-->
+								<!--<h3 class="media-item__title">Scattered Polaroid Gallery</h3>-->
+							<!--</a>-->
+						<!--</div>-->
+					</div>
+				</div>
+			</div>
+			<!-- /stacks-wrapper -->
+		</div>
+		<!-- /stacks -->
+{#		<img class="loader" src="img/three-dots.svg" width="60" alt="Loader image" />#}
+	</div>
+    <!--More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>-->
+	<!-- /container -->
+	<script src="/static/js/flickity.pkgd.min.js"></script>
+	<script src="/static/js/smoothscroll.js"></script>
+	<script src="/static/js/main.js"></script>
+</body>
+</html>
