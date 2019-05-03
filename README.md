@@ -9,4 +9,6 @@
 
 1.create databases photo default charset=utf8;
 2.python manage makemigrations 
-3.python man 
+3.python manage migrate
+4.python createsuperuser 
+5.python manager runserver
