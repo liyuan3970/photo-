@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/',include('index.urls')),
     url(r'^love/',include('love.urls')),
+    url(r'^$',include('index.urls'))#匹配首页
 ]
