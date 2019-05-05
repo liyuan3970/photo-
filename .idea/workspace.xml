@@ -93,6 +93,7 @@
     <findStrings>
       <find>Miscellaneous</find>
       <find>src</find>
+      <find>Abou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
