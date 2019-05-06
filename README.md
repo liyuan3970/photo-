@@ -104,11 +104,11 @@ server{
 ```
 ##修改项目代码
 1. 在settings.py中添加路径(STATIC_ROOT)
-   1.* 要和nginx配置文件中的路径一致
+   1. 要和nginx配置文件中的路径一致
    2. STATIC_ROOT = '/home/liyuan3970/project/photo/collectstatic'
 
 2. 收集静态文件
    1. python manage.py collectstatic
    
 ##启动uwsgi-->在项目目录下
-**uwsgi --ini photo_uwsgi.ini**
+1. **uwsgi --ini photo_uwsgi.ini**
