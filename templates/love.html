@@ -60,13 +60,13 @@ $(function() {
 		modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
 			$('.page_one').addClass('hide');
 			$('.page_two').removeClass('hide');
-			// typeWrite();
-			fireworks();
+			typeWrite();
+			//fireworks();
 			
 		});
 	});
 	$('#no').click(function(event) {
-		modal('明人不说暗话！', A);
+		modal('明人不说暗话！我喜欢你！', A);
 	});
 });
 
@@ -79,38 +79,45 @@ function B() {
 }
 
 function C() {
-	modal('请您不要拒绝我', D);
+	modal('请不要拒绝我', D);
 }
 
 function D() {
-	modal('拒绝我，不存在的', E);
+	modal('我觉得你是一个善良的姑娘', E);
 }
 
 function E() {
-	modal('这辈子都不可能让你离开我', F);
+	modal('第一次见到你后，我就一直偷偷的关注你', F);
 }
 
 function F() {
-	modal('跟我走吧', G);
+	modal('请不要说我是偷窥狂...', G);
 }
 
 function G() {
-	modal('房产证上写你名', H);
+	modal('偷偷关注是因为我不了解你', H);
 }
 
 function H() {
-	modal('我会做饭', I);
+	modal('但我发现你是一个热爱生活的人', I);
 }
 
 function I() {
-	modal('爱你。么么哒！', J)
+	modal('虽然不确定你是不是已经有了男朋友', K)
+}
+function K() {
+	modal('但我相信一定会有人你陪伴你成长！', L)
+}
+function L() {
+	modal('而我只是希望那个人是我！', M)
 }
 
-function J() {
-	modal('行，我们去民政局登记吧', function() {
+function M() {
+	modal('所以，找个时间，我请你吃点好吃的！顺便聊聊？', function() {
 		fireworks();
 	});
 }
+
 
 function fireworks() {
 	$('.page_one').addClass('hide');
@@ -138,7 +145,7 @@ function modal(content, callback) {
 	});
 }
 
-var myWords = '有人说，人的一生会遇到2920万人，而两个人相爱的概率只有0.000049。在这茫茫人海中，两个人能相遇就值得感激，能相爱更是一种难得。所以，我很庆幸上天让我遇见了你。我希望有个如你一般的人，能看完我写过的所有状态，读完我所有的日志，看完我从小到大的照片，试着听我喜欢的歌。如果可以，甚至陪我去我喜欢的地方，只想弥补错过你的青春。';
+var myWords = '有人说，人的一生会遇到2920万人，而两个人相爱的概率只有0.000049。在这茫茫人海中，两个人能相遇就值得感激，能相爱更是一种难得。所以，我很庆幸上天让我遇见了你。我希望有个如你一般的人，能够陪我一起成长，我会小心的记录下我们一起的瞬间，幻想着自己老了走不动了，再次打开这个网站，脑海中回忆的往事，这也是我制作这个web的初衷(^_^)！！！。';
 var x = 0;
 var speed = 150;
 var current = 0;
